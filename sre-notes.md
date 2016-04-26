@@ -35,7 +35,7 @@ Two approaches to hiring people to manage system stability:
 
   Upper bound. Actual amount of ops work is expected to be much lower
 
-> SRE team responsible for latency, performance, efficiency, change management, monitoring, emergency response, and capacity planning
+> SRE team is responsible for latency, performance, efficiency, change management, monitoring, emergency response, and capacity planning
 
 #### Resources
 
