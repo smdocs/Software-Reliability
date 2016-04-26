@@ -67,6 +67,15 @@ Two approaches to hiring people to manage system stability:
   - Systems that don’t require humans to respond will have higher availability due to lower MTTR
   - Having a “playbook” produces 3x lower MTTR
   - Having hero generalists who can respond to everything works, but having playbooks works better
+  
+- <b>Change management</b>
+  - 70% of outages due to changes in a live system. Mitigation:
+      - Implement progressive rollouts
+      - Monitoring
+      - Rollback
+  - Remove humans from the loop, avoid standard human problems on repetitive tasks
+  - Demand forecasting and capacity planning. Straightforward, but a surprising number of teams/services don’t do it
+
 
 
 
