@@ -46,6 +46,13 @@ Two approaches to hiring people to manage system stability:
   - Postmortems for all serious incidents, even if they didn’t trigger a page
   - Blameless postmortems
 
+- <b> Move fast without breaking SLO</b>
+  - Error budget. 100% is the wrong reliability target for basically everything
+  - Going from 5 9s to 100% reliability isn’t noticeable to most users and requires tremendous effort
+  - Set a goal that acknowledges the trade-off and leaves an error budget
+  - Error budget can be spent on anything: launching features, etc.
+  - Error budget allows for discussion about how phased rollouts and 1% experiments can maintain tolerable levels of errors
+  - Goal of SRE team isn’t “zero outages” – SRE and product devs are incentive aligned to spend the error budget to get maximum feature velocity
 
 
 #### Resources
