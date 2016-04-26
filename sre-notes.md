@@ -24,7 +24,7 @@ Two approaches to hiring people to manage system stability:
     
 
 - <b> Software Reliability Engineering Approach </b>
-  - Have software engineers do operations
+  - Have software engineers do operations in order to continually improve production environments and systems.
   - Candidates should be able to pass or nearly pass normal dev hiring bar, and may have some additional skills that are rare among devs (e.g., L1 - L3 networking or Linux system internals or Database internals).
   - Career progress comparable to dev career track
 
