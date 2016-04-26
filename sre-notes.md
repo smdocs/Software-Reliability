@@ -76,6 +76,14 @@ Two approaches to hiring people to manage system stability:
   - Remove humans from the loop, avoid standard human problems on repetitive tasks
   - Demand forecasting and capacity planning. Straightforward, but a surprising number of teams/services don’t do it
 
+- <b>Provisioning </b>
+  - Adding capacity riskier than load shifting, since it often involves spinning up new instances/locations, making significant changes to existing systems (config files, load balancers, etc.)
+  - Expensive enough that it should be done only when necessary; must be done quickly. If you don’t know what you actually need and overprovision that costs money
+
+- <b>Efficiency and performance</b>
+  - Load slows down systems
+  - SREs provision to meet capacity target with a specific response time goal
+  - Efficiency == money
 
 
 
