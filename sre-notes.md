@@ -60,7 +60,7 @@ Two approaches to hiring people to manage system stability:
       - Tickets: human needs to take action eventually
       - Logging: no action needed. Note that, for example, graphs are a type of log
 
-- Emergency Response
+- <b>Emergency Response</b>
   - Reliability is a function of MTTF (mean-time-to-failure) and MTTR (mean-time-to-recovery)
   - For evaluating responses, we care about MTTR
   - Humans add latency
