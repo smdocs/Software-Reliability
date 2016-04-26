@@ -54,6 +54,21 @@ Two approaches to hiring people to manage system stability:
   - Error budget allows for discussion about how phased rollouts and 1% experiments can maintain tolerable levels of errors
   - Goal of SRE team isn’t “zero outages” – SRE and product devs are incentive aligned to spend the error budget to get maximum feature velocity
 
+- <b>Monitoring</b>
+  - Monitoring should never require a human to interpret any part of the alerting domain. Three valid kinds of monitoring output
+      - Alerts: human needs to take action immediately
+      - Tickets: human needs to take action eventually
+      - Logging: no action needed. Note that, for example, graphs are a type of log
+
+- Emergency Response
+  - Reliability is a function of MTTF (mean-time-to-failure) and MTTR (mean-time-to-recovery)
+  - For evaluating responses, we care about MTTR
+  - Humans add latency
+  - Systems that don’t require humans to respond will have higher availability due to lower MTTR
+  - Having a “playbook” produces 3x lower MTTR
+  - Having hero generalists who can respond to everything works, but having playbooks works better
+
+
 
 #### Resources
 
