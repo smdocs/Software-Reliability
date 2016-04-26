@@ -35,7 +35,18 @@ Two approaches to hiring people to manage system stability:
 
   Upper bound. Actual amount of ops work is expected to be much lower
 
+##### Resposibilitiesof SRE
+
 > SRE team is responsible for latency, performance, efficiency, change management, monitoring, emergency response, and capacity planning
+
+- <b> Ensuring a durable focus on engineering</b>
+  - 50% ops cap means that extra ops work is redirected to product teams on overflow
+  - Provides feedback mechanism to product teams as well as keeps load down
+  - Target max 2 events per 8-12 hour on-call shift
+  - Postmortems for all serious incidents, even if they didn’t trigger a page
+  - Blameless postmortems
+
+
 
 #### Resources
 
