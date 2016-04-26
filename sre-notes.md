@@ -1,6 +1,6 @@
 # Notes on Software Reliability
 
-1. Chapter 1: Introduction
+#### 1. Chapter 1: Introduction
 
 Everything in this chapter is covered in much more detail later.
 
