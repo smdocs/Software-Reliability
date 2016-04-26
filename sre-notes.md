@@ -14,9 +14,8 @@ Two approaches to hiring people to manage system stability:
   
   
   ###### Pros
-    1. Easy to implement because it’s standard
-    2. Large talent pool to hire from
-    3. Lots of available software
+    1. Easy to implement because it’s the norm
+    2. Large talent pool to hire from since there are no specific job requirements.
     
   ###### Cons
     1. Manual intervention for change management and event handling causes size of team to scale with load on system
@@ -24,6 +23,7 @@ Two approaches to hiring people to manage system stability:
     
 
 - <b> Software Reliability Engineering Approach </b>
+  - Find ways to improve the design and operation of systems 
   - Have software engineers do operations in order to continually improve production environments and systems.
   - Candidates should be able to pass or nearly pass normal dev hiring bar, and may have some additional skills that are rare among devs (e.g., L1 - L3 networking or Linux system internals or Database internals).
   - Career progress comparable to dev career track
