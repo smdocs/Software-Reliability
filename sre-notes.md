@@ -92,3 +92,4 @@ Two approaches to hiring people to manage system stability:
 1. [ Jamie Brandon’s notes on books he’s read](http://scattered-thoughts.net/)
 2. [Dan Luu's blog](http://danluu.com/google-sre-book/)
 3. [Google - Site Reliability Engineering Book]()
+4. [Handbook of Reliability Engineering](http://www.cse.cuhk.edu.hk/~lyu/book/reliability/)
