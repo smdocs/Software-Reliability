@@ -1,6 +1,6 @@
 #Service level objectives
 
-#####What do you and your users care about?
+#####1. What do you and your users care about?
 - Too many indicators: hard to pay attention
 - Too few indicators: might ignore important behavior
 - Different classes of services should have different indicators
@@ -9,16 +9,16 @@
     - Big data: throughput, end-to-end latency
 - All systems care about correctness
 
-#####Collecting indicators
+#####2. Collecting indicators
 Can often do naturally from server, but client-side metrics sometimes needed.
 
-#####Aggregation
+#####3. Aggregation
 - Use distributions and not averages
 - User studies show that people usually prefer slower average with better tail latency
 - Standardize on common defs, e.g., average over 1 minute, average over tasks in cluster, etc.
 - Can have exceptions, but having reasonable defaults makes things easier
 
-#####Choosing targets
+#####4. Choosing targets
 - Don’t pick target based on current performance 
 - Current performance may require heroic effort
   - Keep it simple
