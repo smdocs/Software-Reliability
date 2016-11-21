@@ -59,6 +59,8 @@ A reading list for services engineering, with a focus on cloud infrastructure se
 * [On HTTP Load Testing](http://www.mnot.net/blog/2011/05/18/http_benchmark_rules) (Nottingham)
 * [Observability at Twitter](https://blog.twitter.com/2013/observability-at-twitter) (Watson)
 * [Stevey’s Google Platforms Rant](https://plus.google.com/112678702228711889851/posts/eVeouesvaVX) (Yegge)
+- [Alexander Podelko - Performance Engineering Links](http://www.alexanderpodelko.com/PerfDesign.html)
+
 
 #### Presentations
 
